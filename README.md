@@ -24,7 +24,7 @@ With legacy browser support (e.g. IE > = 11):
 <script src="dist/stilo.legacy.js"></script>
 ```
 
-Latest Browsers generation:
+Latest browser generation:
 
 ```html
 <!-- stilo -->
