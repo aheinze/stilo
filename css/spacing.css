@@ -1,0 +1,71 @@
+:root {
+    --s-spacing-small: 1em;
+    --s-spacing-medium: 2em;
+    --s-spacing-large: 4em;
+}
+
+/** margins **/
+
+.s-m { margin-bottom: var(--s-spacing-medium) }
+* + .s-m { margin-top: var(--s-spacing-medium) !important }
+
+.s-m-top { margin-top: var(--s-spacing-medium) !important }
+.s-m-bottom { margin-bottom: var(--s-spacing-medium) !important }
+.s-m-left { margin-left: var(--s-spacing-medium) !important }
+.s-m-right { margin-right: var(--s-spacing-medium) !important }
+
+.s-m-small { margin-bottom: var(--s-spacing-small) }
+* + .s-m-small { margin-top: var(--s-spacing-small) !important }
+
+.s-m-small-top { margin-top: var(--s-spacing-small) !important }
+.s-m-small-bottom { margin-bottom: var(--s-spacing-small) !important }
+.s-m-small-left { margin-left: var(--s-spacing-small) !important }
+.s-m-small-right { margin-right: var(--s-spacing-small) !important }
+
+.s-m-large { margin-bottom: var(--s-spacing-large) }
+* + .s-m-large { margin-top: var(--s-spacing-large) !important }
+
+.s-m-large-top { margin-top: var(--s-spacing-large) !important }
+.s-m-large-bottom { margin-bottom: var(--s-spacing-large) !important }
+.s-m-large-left { margin-left: var(--s-spacing-large) !important }
+.s-m-large-right { margin-right: var(--s-spacing-large) !important }
+
+.s-m-remove { margin: 0 !important }
+.s-m-remove-top { margin-top: 0 !important }
+.s-m-remove-bottom { margin-bottom: 0 !important }
+.s-m-remove-left { margin-left: 0 !important }
+.s-m-remove-right { margin-right: 0 !important }
+
+.s-m-remove-vertical {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.s-m-remove-adjacent + * { margin-top: 0 !important }
+
+.s-m-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/** paddings **/
+
+.s-p { padding: var(--s-spacing) }
+.s-p-small { padding: var(--s-spacing-small) !important }
+.s-p-large { padding: var(--s-spacing-large) !important }
+
+.s-p-remove { padding: 0 !important }
+.s-p-remove-top { padding-top: 0 !important }
+.s-p-remove-bottom { padding-bottom: 0 !important }
+.s-p-remove-left { padding-left: 0 !important }
+.s-p-remove-right { padding-right: 0 !important }
+
+.s-p-remove-vertical {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.s-p-remove-horizontal {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

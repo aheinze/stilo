@@ -1,0 +1,19 @@
+:root {
+    --s-section-padding: 2em;
+    --s-section-muted: rgba(0,0,0,.1);
+    --s-section-primary: #000;
+    --s-section-primary-color: #fff;
+}
+
+[class*="s-section"] {
+    box-sizing: border-box;
+    padding-top: var(--s-section-padding);
+    padding-bottom: var(--s-section-padding);
+}
+
+
+.s-section-muted { background: var(--s-section-muted) }
+.s-section-primary {
+    color: var(--s-section-primary-color);
+    background: var(--s-section-primary);
+}

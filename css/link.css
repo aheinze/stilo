@@ -1,0 +1,18 @@
+:root {
+    --s-link-color: #148ECC;
+}
+
+a {
+    color: var(--s-link-color);
+    cursor: pointer;
+}
+
+a.s-link-reset,
+a.s-link-reset:hover,
+a.s-link-reset:focus,
+.s-link-reset a,
+.s-link-reset a:hover,
+.s-link-reset a:focus {
+    color: inherit !important;
+    text-decoration: none !important;
+}

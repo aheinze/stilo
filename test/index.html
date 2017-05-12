@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="../shim/dom4.js"></script>
+    <script src="../shim/es6-shim.js"></script>
+    <script src="../shim/fetch.js"></script>
+    <script src="../shim/document-register-element.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="../dist/stilo.legacy.css">
+    <script src="../dist/stilo.legacy.js"></script>
+    
+    <title>Stilo</title>
+</head>
+<body>
+    
+    <section class="s-container">
+
+        <h1>Stilo</h1>
+        
+        <p class="s-large">A minimal functional front-end library.</p>
+
+        <h2 s-test>Typo</h2>
+
+
+        <div>
+
+            <h1>This is a H1 heading</h1>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+
+                <pre>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</pre>
+
+                <p>This is preformatted text with a code element.</p>
+
+<pre><code>// Code example
+&lt;div id="myid" class="myclass" hidden&gt;
+    Lorem ipsum &lt;strong&gt;dolor&lt;/strong&gt; sit amet, consectetur adipiscing elit.
+&lt;/div&gt;</code></pre>
+
+                <blockquote>This is a short block quote — look Ma, no paragraph tags!</blockquote>
+
+                <hr>
+
+                <h2>This is a H2 heading</h2>
+                <h3>This is a H3 heading</h3>
+                <h4>This is a H4 heading</h4>
+                <h5>This is a H5 heading</h5>
+                <h6>This is a H6 heading</h6>
+        </div>
+
+
+        <div class="s-grid s-child-w-1-1 s-child-w-1-2@m">
+            <div>
+                <div class="s-muted">Muted text</div>
+                <div class="s-primary">Primary text</div>
+                <div class="s-danger">Danger text</div>
+                <div class="s-success">Success text</div>
+                <div class="s-large">Large text</div>
+                <div class="s-small">Small text</div>
+                <div><a>This is a link</a></div>
+                <div><a class="s-link-reset">This is a reseted link</a></div>
+
+            </div>
+            <div>
+                
+            </div>
+        </div>
+
+        <h2>List</h2>
+
+        <ul class="s-list s-m">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+
+        <h2>Button</h2>
+
+        <div class="s-m">
+            <button class="s-button s-small">Test</button>
+            <button class="s-button">Test</button>
+            <button class="s-button s-large">Test</button>
+        </div>
+
+        <div class="s-m">
+            <button class="s-button-outline s-small">Test</button>
+            <button class="s-button-outline">Test</button>
+            <button class="s-button-outline s-large">Test</button>
+        </div>
+
+        <h2>Grid</h2>
+
+        <div class="s-grid s-align-c">
+            <div class="s-w-1-1"><div class="s-shadow-small s-p-small"><code>1/1</code></div></div>
+            <div class="s-w-1-2@m s-w-1-1@s"><div class="s-shadow-small s-p-small"><code>1/2</code></div></div>
+            <div class="s-w-1-2@m s-w-1-1@s"><div class="s-shadow-small s-p-small"><code>1/2</code></div></div>
+            <div class="s-w-1-3@m s-w-1-1@s"><div class="s-shadow-small s-p-small"><code>1/3</code></div></div>
+            <div class="s-w-1-3@m s-w-1-1@s"><div class="s-shadow-small s-p-small"><code>1/3</code></div></div>
+            <div class="s-w-1-3@m s-w-1-1@s"><div class="s-shadow-small s-p-small"><code>1/3</code></div></div>
+            <div class="s-w-1-4@m s-w-1-1@s"><div class="s-shadow-small s-p-small"><code>1/4</code></div></div>
+            <div class="s-w-1-4@m s-w-1-1@s"><div class="s-shadow-small s-p-small"><code>1/4</code></div></div>
+            <div class="s-w-1-4@m s-w-1-1@s"><div class="s-shadow-small s-p-small"><code>1/4</code></div></div>
+            <div class="s-w-1-4@m s-w-1-1@s"><div class="s-shadow-small s-p-small"><code>1/4</code></div></div>
+        </div>
+
+        <h2>Container</h2>
+
+        <div class="s-container s-shadow-medium s-p-large s-align-c s-m"><code>.s-container</code></div>
+        <div class="s-container s-container-small s-shadow-medium s-p-large s-align-c s-m"><code>.s-container.s-container-small</code></div>
+
+        <h2>Shadow</h2>
+
+        <div class="s-grid-center s-grid-match s-child-w-1-4@m s-child-w-1-1@s">
+            <div><div class="s-shadow-small s-p-large s-align-c"><code>.s-shadow-small</code></div></div>
+            <div><div class="s-shadow-medium s-p-large s-align-c"><code>.s-shadow-medium</code></div></div>
+            <div><div class="s-shadow-large s-p-large s-align-c"><code>.s-shadow-large</code></div></div>
+        </div>
+
+    </section>
+
+    <h2 class="s-container">Section</h2>
+
+    <section class="s-section s-align-c">
+        Section
+    </section>
+
+    <section class="s-section-muted s-align-c">
+        Section muted
+    </section>
+
+    <section class="s-section-primary s-align-c">
+        Section primary
+    </section>
+
+    <section class="s-container">
+
+        <h2>Tab</h2>
+
+        <s-tab class="s-container-small">
+            <s-tabs class="s-flex-center">
+                <a>Tab 1</a>
+                <a>Tab 2</a>
+                <a>Tab 3</a>
+            </s-tabs>
+            <s-content class="s-shadow s-p-large">
+                <div class="s-active">Content 1</div>
+                <div>Content 2</div>
+                <div>Content 3</div>
+            </s-content>
+        </s-tab>
+
+        <h2>Offcanvas</h2>
+
+        <a data-offcanvas-open="#offcanvas">Open left Offcanvas</a>
+        <a data-offcanvas-open="#offcanvas-flip">Open right Offcanvas</a>
+
+        <s-offcanvas id="offcanvas">
+            <s-content class="s-p-small">
+                Offcanvas bar content...
+                <p><button class="s-button-outline" data-offcanvas-close>Close</button></p>
+            </s-content>
+        </s-offcanvas>
+
+        <s-offcanvas class="flip" id="offcanvas-flip">
+            <s-content class="s-p-small">
+                Offcanvas bar content...
+                <p><button class="s-button-outline" data-offcanvas-close>Close</button></p>
+            </s-content>
+        </s-offcanvas>
+
+        <h2>Inline Svg</h2>
+
+        <img class="apply-class" src="media/test.svg" width="200" height="200" alt="" s-svg>
+
+    </section>
+
+    
+</body>
+</html>

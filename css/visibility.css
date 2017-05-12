@@ -1,0 +1,58 @@
+
+[hidden],
+.s-hidden { display: none !important; }
+
+.s-invisible { visibility: hidden !important; }
+
+/* Phone landscape and bigger */
+@media (min-width: 640px) {
+    .s-hidden\@s { display: none !important; }
+}
+
+/* Tablet landscape and bigger */
+@media (min-width: 960px) {
+    .s-hidden\@m { display: none !important; }
+}
+
+/* Desktop and bigger */
+@media (min-width: 1200px) {
+    .s-hidden\@l { display: none !important; }
+}
+
+/* Large screen and bigger */
+@media (min-width: 1600px) {
+    .s-hidden\@xl { display: none !important; }
+}
+
+/*
+ * Visible
+ */
+
+/* Phone portrait and smaller */
+@media (max-width: 639px) {
+
+    .s-visible\@s { display: none !important; }
+
+}
+
+/* Phone landscape and smaller */
+@media (max-width: 959px) {
+    .s-visible\@m { display: none !important; }
+}
+
+/* Tablet landscape and smaller */
+@media (max-width: 1199px) {
+    .s-visible\@l { display: none !important; }
+}
+
+/* Desktop and smaller */
+@media (max-width: 1599px) {
+    .s-visible\@xl { display: none !important; }
+}
+
+.s-hidden-notouch { display: none !important; }
+
+@media (pointer: coarse) {
+    .s-hidden-notouch { display: block !important; }
+    .s-hidden-touch { display: none !important; }
+}

@@ -1,0 +1,11 @@
+.s-pos-rel { position: relative !important }
+.s-pos-abs { position: absolute !important }
+.s-pos-fix { position: fixed !important }
+
+.s-pos-cover {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

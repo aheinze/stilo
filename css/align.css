@@ -1,0 +1,58 @@
+.s-align-l { text-align: left !important }
+.s-align-c { text-align: center !important }
+.s-align-r { text-align: right !important }
+.s-align-j { text-align: justify !important }
+.s-align-s { text-align: start !important }
+.s-align-e { text-align: end !important }
+.s-align-m { vertical-align: middle !important }
+.s-align-t { vertical-align: top !important }
+.s-align-b { vertical-align: baseline !important }
+
+@media (max-width: 767px) { /* small */
+    .s-align-l\@s { text-align: left !important }
+    .s-align-c\@s { text-align: center !important }
+    .s-align-r\@s { text-align: right !important }
+    .s-align-j\@s { text-align: justify !important }
+    .s-align-s\@s { text-align: start !important }
+    .s-align-e\@s { text-align: end !important }
+    .s-align-m\@s { vertical-align: middle !important }
+    .s-align-t\@s { vertical-align: top !important }
+    .s-align-b\@s { vertical-align: baseline !important }
+}
+
+@media (min-width: 768px) { /* medium */
+    .s-align-l\@m { text-align: left !important }
+    .s-align-c\@m { text-align: center !important }
+    .s-align-r\@m { text-align: right !important }
+    .s-align-j\@m { text-align: justify !important }
+    .s-align-s\@m { text-align: start !important }
+    .s-align-e\@m { text-align: end !important }
+    .s-align-m\@m { vertical-align: middle !important }
+    .s-align-t\@m { vertical-align: top !important }
+    .s-align-b\@m { vertical-align: baseline !important }
+}
+
+@media (min-width: 1200px) { /* large */
+    .s-align-l\@l { text-align: left !important }
+    .s-align-c\@l { text-align: center !important }
+    .s-align-r\@l { text-align: right !important }
+    .s-align-j\@l { text-align: justify !important }
+    .s-align-s\@l { text-align: start !important }
+    .s-align-e\@l { text-align: end !important }
+    .s-align-m\@l { vertical-align: middle !important }
+    .s-align-t\@l { vertical-align: top !important }
+    .s-align-b\@l { vertical-align: baseline !important }
+}
+
+
+@media (min-width: 1600px) {
+    .s-align-l\@xl { text-align: left !important }
+    .s-align-c\@xl { text-align: center !important }
+    .s-align-r\@xl { text-align: right !important }
+    .s-align-j\@xl { text-align: justify !important }
+    .s-align-s\@xl { text-align: start !important }
+    .s-align-e\@xl { text-align: end !important }
+    .s-align-m\@xl { vertical-align: middle !important }
+    .s-align-t\@xl { vertical-align: top !important }
+    .s-align-b\@xl { vertical-align: baseline !important }   
+}

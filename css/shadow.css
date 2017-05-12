@@ -1,0 +1,43 @@
+:root {
+    --s-shadow-small: 0 2px 8px rgba(0,0,0,0.08);
+    --s-shadow-medium: 0 5px 15px rgba(0,0,0,0.08);
+    --s-shadow-large: 0 14px 25px rgba(0,0,0,0.16);
+}
+
+[class*="s-shadow-hover"] { transition: box-shadow .1s ease-in-out }
+
+.s-shadow-small,
+.s-shadow-hover-small:hover { box-shadow: var(--s-shadow-small) }
+.s-shadow,
+.s-shadow-medium,
+.s-shadow-hover-medium:hover { box-shadow: var(--s-shadow-medium) }
+.s-shadow-large,
+.s-shadow-hover-large:hover  { box-shadow: var(--s-shadow-large) }
+
+.s-shadow-box { box-shadow: 0 1px 2px 0 rgba(0,0,0,0.22) }
+
+@supports (filter: blur(0)) or (-webkit-filter: blur(0)) {
+
+    .s-shadow-bottom {
+        display: inline-block;
+        position: relative;
+        max-width: 100%;
+        vertical-align: middle;
+    }
+
+    .s-shadow-bottom::before {
+        content: "";
+        position: absolute;
+        bottom: -30px;
+        left: 0;
+        right: 0;
+        height: 30px;
+        border-radius: 100%;
+        background: rgba(0,0,0,.4);
+        -webkit-filter: blur(20px);
+        filter: blur(20px);
+    }
+
+    /* 3 */
+    .s-shadow-bottom > * { position: relative }
+}

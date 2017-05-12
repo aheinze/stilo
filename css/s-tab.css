@@ -1,0 +1,24 @@
+s-tab { display: block }
+
+s-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+s-tabs > * {
+    display: block;
+    flex: none;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    padding: .25em .5em;
+    color: inherit;
+}
+
+s-tabs > a:hover,
+s-tabs > a:focus { }
+s-tabs > .s-active { color: blue }
+
+s-tab > s-content { display: block }
+s-tab > s-content > *:not(.s-active) { display: none }

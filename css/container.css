@@ -1,0 +1,16 @@
+:root {
+    --s-container-maxwidth: 1200px;
+    --s-container-small-maxwidth: 900px;
+    --s-container-padding: 15px;
+}
+
+
+[class*="s-container"] {
+    max-width: var(--s-container-maxwidth);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--s-container-padding);
+    padding-right: var(--s-container-padding);
+}
+
+.s-container-small { max-width: var(--s-container-small-maxwidth); }

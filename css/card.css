@@ -1,0 +1,10 @@
+
+.s-card,
+.s-card-body,
+.s-card-header,
+.s-card-footer { position: relative }
+
+.s-card-body { padding: 1em }
+
+.s-card-header,
+.s-card-footer { padding: .5em 1em }

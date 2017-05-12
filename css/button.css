@@ -1,0 +1,33 @@
+:root {
+    --s-button-background: #000;
+    --s-button-color: #fff;
+}
+
+[class*="s-button"] {
+    border: 0;
+    border-radius: 0;
+    display: inline-block;
+    background-color: var(--s-button-background);
+    color: var(--s-button-color);
+    font-size: 1em;
+    cursor: pointer;
+    padding: .6em 2em;
+    line-height: inherit;
+    text-decoration: none;
+    text-align: center;
+    appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.s-button-outline {
+    background: transparent;
+    color: currentColor;
+    border: 1px currentColor solid;
+}
+
+button[disabled], 
+input[disabled] { 
+    cursor: default 
+}

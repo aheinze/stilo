@@ -1,0 +1,12 @@
+.s-float-l { float: left !important }
+.s-float-r { float: right !important }
+
+.s-clearfix::before,
+.s-clearfix::after {
+    content:" ";
+    display: table;
+}
+
+.s-clearfix::after {
+    clear: both;
+}

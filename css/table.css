@@ -1,0 +1,23 @@
+
+.s-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: table;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.s-table td,
+.s-table th {
+    display: table-cell;
+    padding: .22em .44em;
+    vertical-align: top;
+}
+
+.s-table th {
+    font-weight: bolder;
+    text-align: left;
+}
+
+.s-table tr td:first-child,
+.s-table tr th:first-child { padding-left: 0 }

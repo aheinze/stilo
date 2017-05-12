@@ -1,0 +1,40 @@
+:root {
+    --s-offcanvas-background: rgba(0,0,0,.1);
+    --s-offcanvas-content-background: #000;
+    --s-offcanvas-content-color: #fff;
+}
+
+s-offcanvas {
+    display: none;
+    position: fixed;
+    background: var(--s-offcanvas-background);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    touch-action: none;
+    z-index: 1000;
+}
+
+s-offcanvas > s-content {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: var(--s-offcanvas-content-background);
+    color: var(--s-offcanvas-content-color);
+    min-width: 300px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+s-offcanvas.flip > s-content {
+    right: 0;
+    transform: translateX(100%);
+}
+
+s-offcanvas.open > s-content {
+    transform: translateX(0);
+}

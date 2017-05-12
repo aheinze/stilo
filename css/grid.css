@@ -1,0 +1,40 @@
+[class*="s-grid"] {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+[class*="s-grid"] > * { box-sizing: border-box }
+[class*="s-grid"]:not([class*="s-child-w-"]) > *:not([class*="s-w-"]) { flex: 1 }
+
+[class*="s-grid"]:not([class*="s-grid-collapse"]) { margin: -2em 0 0 -2em }
+[class*="s-grid"]:not([class*="s-grid-collapse"]) > * {
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.s-grid-inline { display: inline-flex }
+
+.s-grid-small { margin: -1em 0 0 -1em !important }
+
+.s-grid-small > * {
+    padding-left: 1em !important;
+    padding-top: 1em !important;
+}
+
+.s-grid-middle { align-items: center }
+.s-grid-center { justify-content: center }
+
+.s-grid-match > * {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s-grid-match > * > :not([class*='s-w-'])  {
+    box-sizing: border-box;
+    width: 100%;
+    flex: auto;
+}

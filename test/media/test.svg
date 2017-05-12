@@ -1,0 +1,10 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px" viewBox="0 0 100 100">
+    <g transform="translate(0,-952.36218)">
+        <path style="text-indent:0;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;color:#000000;enable-background:accumulate;"
+            d="m 6.0000025,972.36215 0,1 0,58.00005 0,1 1,0 85.9999945,0 1,0 0,-1 0,-58.00005 0,-1 -1,0 -85.9999945,0 z m 2,2 83.9999945,0 0,40.90625 -18.375,-14.6875 c -0.32758,-0.2699 -0.83339,-0.2966 -1.1875,-0.062 l -15.406245,10.5938 -20.40625,-16.5313 c -0.22905,-0.19472 -0.54895,-0.27766 -0.84375,-0.21875 -0.12309,0.0297 -0.24044,0.083 -0.34375,0.15625 l -27.4374995,18.9375 z m 49.0000005,6 c -3.85415,0 -7,3.14585 -7,7 0,3.85415 3.14585,7 7,7 3.85415,0 6.999995,-3.14585 6.999995,-7 0,-3.85415 -3.145845,-7 -6.999995,-7 z m -0.5,2 c 0.16865,-0.017 0.32667,0 0.5,0 2.77327,0 5,2.22673 5,5 0,2.77327 -2.22673,5 -5,5 -2.77327,0 -5,-2.22673 -5,-5 0,-2.59994 1.97026,-4.74521 4.5,-5 z m -20.53125,14.21875 20.40625,16.5312 c 0.32758,0.27 0.83339,0.2966 1.1875,0.062 l 15.374995,-10.5624 19.0625,15.2187 0,12.5313 -83.9999955,0 0,-14.5001 z"
+            fill="#000000" fill-opacity="1" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible"
+        />
+    </g>
+</svg>

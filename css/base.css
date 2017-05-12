@@ -1,0 +1,60 @@
+:root {
+    --s-root-color: #000;
+    --s-root-font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    --s-root-font-size: 100%;
+    --s-root-font-weight: normal;
+    --s-root-line-height: 1.7;
+
+    --s-color-muted: rgba(0,0,0,.5);
+    --s-color-primary: #1e87f0;
+    --s-color-danger: #f0506e;
+    --s-color-success: #32d296;
+}
+
+html {
+    color: var(--s-root-color);
+    font-family: var(--s-root-font-family);
+    font-size: var(--s-root-font-size);
+    line-height: var(--s-root-line-height);
+    font-weight: var(--s-root-font-weight);
+
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    display: block;
+    margin: 1em 0;
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0,0,0,.4);
+    color: inherit;
+}
+
+blockquote {
+    margin: 2em 0;
+    padding-left: 2em;
+    border-left: 4px solid currentColor;
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+mark {
+    background-color: #ff0;
+    color: #000; 
+}
+
+b,
+strong,
+.s-bold { font-weight: bolder }

@@ -1,0 +1,16 @@
+.s-flex { display: flex }
+.s-flex-inline { display: inline-flex }
+
+.s-flex::before,
+.s-flex::after,
+.s-flex-inline::before,
+.s-flex-inline::after { display: none }
+
+.s-flex-left { justify-content: flex-start }
+.s-flex-center { justify-content: center }
+.s-flex-right { justify-content: flex-end }
+.s-flex-between { justify-content: space-between }
+.s-flex-around { justify-content: space-around }
+
+.uk-flex-auto { flex: auto }
+.uk-flex-expand { flex: 1 }
