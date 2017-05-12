@@ -1,8 +1,8 @@
-import { register, Directive } from './../api/directive';
+import { register, StiloDirective } from './../api/directive';
 
 let cache = {};
 
-register('svg', class Test extends Directive {
+register('svg', class StiloSvg extends StiloDirective {
     
     ready() {
 

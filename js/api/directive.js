@@ -1,5 +1,5 @@
 import { $dom, domReady, observe } from './dom';
-import { StiloDirective } from './stilo-directive';
+import { StiloDirective as Directive } from './stilo-directive';
 
 let directives = {}
 
@@ -50,4 +50,4 @@ domReady.then(() => {
     init()
 });
 
-export let Directive = StiloDirective;
+export let StiloDirective = Directive;

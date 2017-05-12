@@ -463,7 +463,7 @@ var StiloOffcanvas = function (_StiloElement) {
 
 customElements.define('s-offcanvas', StiloOffcanvas);
 
-var StiloDirective = function () {
+var StiloDirective$1 = function () {
     function StiloDirective(element, option) {
         var _this = this;
 
@@ -540,19 +540,19 @@ domReady.then(function () {
     init();
 });
 
-var Directive = StiloDirective;
+var StiloDirective$$1 = StiloDirective$1;
 
 var cache = {};
 
-register('svg', function (_Directive) {
-    inherits(Test, _Directive);
+register('svg', function (_StiloDirective) {
+    inherits(StiloSvg, _StiloDirective);
 
-    function Test() {
-        classCallCheck(this, Test);
-        return possibleConstructorReturn(this, (Test.__proto__ || Object.getPrototypeOf(Test)).apply(this, arguments));
+    function StiloSvg() {
+        classCallCheck(this, StiloSvg);
+        return possibleConstructorReturn(this, (StiloSvg.__proto__ || Object.getPrototypeOf(StiloSvg)).apply(this, arguments));
     }
 
-    createClass(Test, [{
+    createClass(StiloSvg, [{
         key: 'ready',
         value: function ready() {
             var _this2 = this;
@@ -587,8 +587,8 @@ register('svg', function (_Directive) {
             });
         }
     }]);
-    return Test;
-}(Directive));
+    return StiloSvg;
+}(StiloDirective$$1));
 
 })));
 //# sourceMappingURL=stilo.legacy.js.map

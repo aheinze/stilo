@@ -304,7 +304,7 @@ class StiloOffcanvas extends StiloElement {
 
 customElements.define('s-offcanvas', StiloOffcanvas);
 
-class StiloDirective {
+class StiloDirective$1 {
 
     constructor(element, option) {
         this.element = $dom(element);
@@ -364,11 +364,11 @@ domReady.then(() => {
     init();
 });
 
-let Directive = StiloDirective;
+let StiloDirective$$1 = StiloDirective$1;
 
 let cache = {};
 
-register('svg', class Test extends Directive {
+register('svg', class StiloSvg extends StiloDirective$$1 {
     
     ready() {
 

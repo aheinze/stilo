@@ -102,11 +102,6 @@ s-offcanvas.open > s-content {
     --s-root-font-size: 100%;
     --s-root-font-weight: normal;
     --s-root-line-height: 1.7;
-
-    --s-color-muted: rgba(0, 0, 0, .5);
-    --s-color-primary: #1e87f0;
-    --s-color-danger: #f0506e;
-    --s-color-success: #32d296;
 }
 
 html {
@@ -161,6 +156,13 @@ mark {
 b,
 strong,
 .s-bold { font-weight: bolder }
+
+:root {
+    --s-color-muted: rgba(0, 0, 0, .5);
+    --s-color-primary: #1e87f0;
+    --s-color-danger: #f0506e;
+    --s-color-success: #32d296;
+}
 
 h1 { font-size: 3em }
 

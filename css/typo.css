@@ -1,3 +1,10 @@
+:root {
+    --s-color-muted: rgba(0,0,0,.5);
+    --s-color-primary: #1e87f0;
+    --s-color-danger: #f0506e;
+    --s-color-success: #32d296;
+}
+
 h1 { font-size: 3em }
 h2 { font-size: 2em }
 h3 { font-size: 1.5em }

@@ -1,4 +1,4 @@
-import { $dom, domReady } from './dom.js';
+import { $dom, domReady } from './dom';
 
 export class StiloElement extends HTMLElement {
 
